@@ -16,26 +16,26 @@
                 <div class="w-full p-5 text-white text-5xl h-24 overflow-x-auto overflow-y-hidden" id="display-screen"></div>
             </div>
             <div class="grid grid-cols-4 gap-1 text-center p-1">
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('')">%</div>
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('')">X<sup>x</sup></div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="operation('√')"><sup>n</sup>√</div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="operation('^')">X<sup>x</sup></div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="del()">DEL</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="ac()">AC</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('7')">7</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('8')">8</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('9')">9</div>
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('×')">×</div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="operation('×')">×</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('4')">4</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('5')">5</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('6')">6</div>
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('÷')">÷</div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="operation('÷')">÷</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('1')">1</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('2')">2</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('3')">3</div>
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('+')">+</div>
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('.')">.</div>
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('0')">0</div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="operation('+')">+</div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="decimalPoint('.')">.</div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="zero('0')">0</div>
                 <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="result()">=</div>
-                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="keyValues('−')">−</div>
+                <div class="bg-sky-300 py-5 active:text-white active:bg-slate-900 select-none cursor-pointer flex justify-center items-center text-4xl font-semibold" onclick="operation('−')">−</div>
             </div>
         </div>
 
